@@ -1,0 +1,12 @@
+{
+  "version": "approved-repair-check-v1",
+  "segments": [
+    {
+      "id": "full-check",
+      "narration_measured_ms": 100,
+      "approved_shot_ms": 500,
+      "start_offset_ms": 100,
+      "allowed_pause_after_ms": 400
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "version": "approved-cut-v7",
+  "segments": [
+    {"id": "S1", "copy_characters": 100, "approved_shot_ms": 10000, "start_offset_ms": 0, "allowed_pause_after_ms": 0}
+  ]
+}

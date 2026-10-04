@@ -1,0 +1,28 @@
+name: video-narration-duration-fit-cn
+slug: video-narration-duration-fit-cn
+display_name: 实测旁白时长匹配表
+description: 输入最多30段旁白实测毫秒数、已批准镜头时长、起播偏移、允许停顿及版本号，交付逐段可用与所需时长、超出毫秒和总计待办，适用于成片前核对口播是否放得进既定镜头；只有字数或缺偏移、停顿时明确要求补实测，不报通过。
+version: 1.0.0
+icon: icon-512.png
+repository: https://github.com/xxjrq/video-narration-duration-fit-cn
+license: MIT
+tags:
+  - 旁白
+  - 时长核对
+  - 视频制作
+  - 毫秒预算
+  - 中文
+trigger_words:
+  - 旁白时长
+  - 口播放得进吗
+  - 镜头时长核对
+  - 实测音频超时
+self_test: sh scripts/self_test.sh
+interface:
+  display_name: "实测旁白时长匹配表"
+  short_description: "按实测旁白与批准镜头毫秒数核对逐段时间预算并列出待办"
+  default_prompt: "请使用 $video-narration-duration-fit-cn，核对实测旁白、批准镜头、起播偏移与停顿的毫秒预算，区分可缩稿与固定时间超预算；缺关键输入不报通过。"
+  icon_small: "./icon-512.png"
+  icon_large: "./icon-512.png"
+policy:
+  allow_implicit_invocation: true
